@@ -258,6 +258,8 @@ export default function Inicio() {
             </div>
 
             <div className="explicacao-right"> </div>
+
+                <img src={explicação} alt="" />
           </div> 
         </div>
 
