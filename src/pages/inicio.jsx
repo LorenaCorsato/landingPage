@@ -321,16 +321,16 @@ export default function Inicio() {
 
         <div className="objetivos">
           <div className="objetivos-conteudo">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/6nALgJdfgKc?si=kCSJN_t2vGz634gQ"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+        <div className="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/6nALgJdfgKc?si=kCSJN_t2vGz634gQ"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
+</div>
 
             <div className="texto-e-carrosseis">
               <p className="texto-ao-lado">
