@@ -22,7 +22,7 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
 // 1. IMPORTAÇÃO DE TODAS AS IMAGENS (CORRIGIDO PARA O VERCEL)
 // Imagens do Carrossel de Alunos (substitua pelos caminhos corretos se forem diferentes)
-import funcaoImg1 from "../assets/perfil.png";
+import funcaoImg from "../assets/perfil.png";
 import funcaoImg2 from "../assets/perfil.png";
 import funcaoImg3 from "../assets/perfil.png";
 import funcaoImg4 from "../assets/perfil.png";
@@ -34,6 +34,9 @@ import cardEnergiaImg from "../assets/img12.png";
 import cardEficienciaImg from "../assets/img10.png";
 import cardEcologiaImg from "../assets/img14.png";
 import cardEconomiaImg from "../assets/img13.png";
+
+import explicação from "../assets/imgEx.jpg";
+
 
 // Arrays de textos para cada Swiper (apenas 2 textos cada)
 const textosSlides1 = [
@@ -313,12 +316,13 @@ export default function Inicio() {
           </div>
         </div>
 
-        <div className="cards">
-                        <Card srcCard={cardEnergiaImg} tituloCard="Energia" textoCard="Utilize energia com aparelhos de qualidade e estabelecendo seus próprios limites..." />
-                        <Card srcCard={cardEficienciaImg} tituloCard="Eficiência" textoCard="Garantimos uma experiência positiva, que promete resultados, melhorando a geração de energia..." />
-                        <Card srcCard={cardEcologiaImg} tituloCard="Ecologia" textoCard="Ao mesmo tempo em que você se beneficia, ainda ajuda a natureza com um sistema limpo e sustentável..." />
-                        <Card srcCard={cardEconomiaImg} tituloCard="Economia" textoCard="Além de ajudar a natureza, também ajudamos a sua carteira. O investimento em aparelhos de energia limpa..." />
-                    </div>
+   <div className="cards">
+          <Card srcCard="src/assets/energia - lading page.png" tituloCard="Energia" textoCard="Utilize energia com aparelhos de qualidade e estabelecendo seus próprios limites. Oferecemos a oportunidade de saber com clareza a quantidade de energia que você utiliza para ajudá-lo da melhor maneira possível." />
+          <Card srcCard="src/assets/Eficiencia - lading page.png" tituloCard="Eficiência" textoCard="Garantimos uma experiência positiva, que promete resultados, melhorando a geração de energia e reduzindo o nível de poluição emitido." />
+          <Card srcCard="src/assets/ecologia - lading page.png" tituloCard="Ecologia" textoCard="Ao mesmo tempo em que você se beneficia, ainda ajuda a natureza com um sistema limpo e sustentável, mantendo o meio ambiente e a consciência limpos." />
+          <Card srcCard="src/assets/economia - lading page.png" tituloCard="Economia" textoCard="Além de ajudar a natureza, também ajudamos a sua carteira. O investimento em aparelhos de energia limpa promete uma redução nos custos de energia a longo prazo, aumentando a eficiência e diminuindo o peso no bolso." />
+        </div>
+
 
         <div className="objetivos">
           <div className="objetivos-conteudo">
@@ -398,7 +402,6 @@ export default function Inicio() {
                   <p className="mini-swiper-text">{textosSlides2[slideAtivo2]}</p>
                 </div>
 
-                {/* Swiper 3 */}
                 <div className="mini-swiper-col">
                   <Swiper
                     effect="coverflow"
