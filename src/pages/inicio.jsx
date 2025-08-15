@@ -317,10 +317,10 @@ export default function Inicio() {
         </div>
 
    <div className="cards">
-          <Card srcCard="src/assets/energia - lading page.png" tituloCard="Energia" textoCard="Utilize energia com aparelhos de qualidade e estabelecendo seus próprios limites. Oferecemos a oportunidade de saber com clareza a quantidade de energia que você utiliza para ajudá-lo da melhor maneira possível." />
-          <Card srcCard="src/assets/Eficiencia - lading page.png" tituloCard="Eficiência" textoCard="Garantimos uma experiência positiva, que promete resultados, melhorando a geração de energia e reduzindo o nível de poluição emitido." />
-          <Card srcCard="src/assets/ecologia - lading page.png" tituloCard="Ecologia" textoCard="Ao mesmo tempo em que você se beneficia, ainda ajuda a natureza com um sistema limpo e sustentável, mantendo o meio ambiente e a consciência limpos." />
-          <Card srcCard="src/assets/economia - lading page.png" tituloCard="Economia" textoCard="Além de ajudar a natureza, também ajudamos a sua carteira. O investimento em aparelhos de energia limpa promete uma redução nos custos de energia a longo prazo, aumentando a eficiência e diminuindo o peso no bolso." />
+          <Card srcCard={cardEnergiaImg}   tituloCard="Energia" textoCard="Utilize energia com aparelhos de qualidade e estabelecendo seus próprios limites. Oferecemos a oportunidade de saber com clareza a quantidade de energia que você utiliza para ajudá-lo da melhor maneira possível." />
+          <Card  srcCard={cardEficienciaImg}  tituloCard="Eficiência" textoCard="Garantimos uma experiência positiva, que promete resultados, melhorando a geração de energia e reduzindo o nível de poluição emitido." />
+          <Card  srcCard={cardEcologiaImg}  tituloCard="Ecologia" textoCard="Ao mesmo tempo em que você se beneficia, ainda ajuda a natureza com um sistema limpo e sustentável, mantendo o meio ambiente e a consciência limpos." />
+          <Card  srcCard={cardEconomiaImg}  tituloCard="Economia" textoCard="Além de ajudar a natureza, também ajudamos a sua carteira. O investimento em aparelhos de energia limpa promete uma redução nos custos de energia a longo prazo, aumentando a eficiência e diminuindo o peso no bolso." />
         </div>
 
 

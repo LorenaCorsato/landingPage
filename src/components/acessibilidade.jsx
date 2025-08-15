@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import '../styles/components/acessibilidade.css';
+import bAcessibilidade from "../assets/Acessibilidade-removebg-preview.png";
 
 const tiposDeFiltro = [
     { id: 'nenhum', nome: 'Padrão' },
@@ -54,7 +55,7 @@ export default function Acessibilidade() {
             </div>
 
             <button onClick={() => setMenuAberto(!menuAberto)} className="btnAcessibilidade">
-                <img src="/src/assets/Acessibilidade-removebg-preview.png" alt="Ícone de Acessibilidade" />
+                <img src={bAcessibilidade} />
             </button>
         </div>
     );

@@ -1,7 +1,7 @@
 /* cabecalho.css */
 
 .container {
-    width: 100vw;          /* Ocupa toda a largura da tela */
+    width: 200vw;          /* Ocupa toda a largura da tela */
     max-width: 100%;      /* Garante que não fique limitado */
     padding: 0;            /* Remove espaçamento interno */
     box-sizing: border-box;
