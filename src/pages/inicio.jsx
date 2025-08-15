@@ -20,8 +20,6 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
 
 
-// 1. IMPORTAÇÃO DE TODAS AS IMAGENS (CORRIGIDO PARA O VERCEL)
-// Imagens do Carrossel de Alunos (substitua pelos caminhos corretos se forem diferentes)
 import funcaoImg from "../assets/perfil.png";
 import funcaoImg2 from "../assets/perfil.png";
 import funcaoImg3 from "../assets/perfil.png";
@@ -29,16 +27,13 @@ import funcaoImg4 from "../assets/perfil.png";
 import funcaoImg5 from "../assets/perfil.png";
 import funcaoImg6 from "../assets/perfil.png";
 
-// Imagens dos Cards de Benefícios
 import cardEnergiaImg from "../assets/img12.png";
 import cardEficienciaImg from "../assets/img10.png";
 import cardEcologiaImg from "../assets/img14.png";
 import cardEconomiaImg from "../assets/img13.png";
 
-import explicação from "../assets/imgEx.jpg";
 
 
-// Arrays de textos para cada Swiper (apenas 2 textos cada)
 const textosSlides1 = [
   "Lorena C. Programadora",
   "Gustavo M. Designer"
@@ -65,7 +60,6 @@ export default function Inicio() {
   const [slideAtivo2, setSlideAtivo2] = useState(0);
   const [slideAtivo3, setSlideAtivo3] = useState(0);
 
-  // Dados para os novos pop-ups na seção de Benefícios
   const beneficiosPopups = [
     {
       title: "Para o Meio Ambiente",
@@ -259,7 +253,6 @@ export default function Inicio() {
 
             <div className="explicacao-right"> </div>
 
-                <img src={explicação} alt="" />
           </div> 
         </div>
 
