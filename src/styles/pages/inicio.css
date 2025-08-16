@@ -27,7 +27,7 @@
     align-items: flex-start; /* Alinha pelo topo */
     gap: 30px;
     max-width: 1200px;
-    width: 90%;
+    width: 100%;
     margin-top: 2rem;
 }
 
@@ -36,8 +36,15 @@
     flex: 1 1 500px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 50%;
+    max-width: 100%;
     min-width: 320px;
+    height: 300px; /* Altura fixa para o vídeo */
+    width: 100%;
+}
+
+.video-container {
+    width: 50vh;
+    height: 10vh;
 }
 
 /* CONTEINER PARA O TEXTO E O CARROSSEL (NOVO) */
@@ -475,3 +482,4 @@
     min-height: 2.5em;
     color: #333;
 }
+
