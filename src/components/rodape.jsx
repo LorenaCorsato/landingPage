@@ -9,7 +9,9 @@ import youtubeIcon from '../assets/youtube.png';
 
 export default function Footer() {
     return (
-        // 2. Usando a tag <footer> que é semanticamente mais correta
+      
+
+       // 2. Usando a tag <footer> que é semanticamente mais correta
         <footer className="rodape">
             <div className="parteSuperior">
                 <div className="direitosReservados">
@@ -42,5 +44,6 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
+               
     );
 }
