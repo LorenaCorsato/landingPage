@@ -277,7 +277,7 @@
     font-family: "alexandria", sans-serif;
     animation: slide-in-right 0.8s ease-out forwards;
     opacity: 0;
-    animation-delay: 0s;
+    animation-delay: 10s;
 }
 
 .explicacao-item img {
