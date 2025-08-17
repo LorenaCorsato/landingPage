@@ -96,7 +96,7 @@ export default function Inicio() {
   function MudarParagrafo1() {
     setParagrafos([
       "A maneira como trabalhamos e os problemas que buscamos resolver devem beneficiar e auxiliar usuários de todo o estado de São Paulo, independentemente de sua posição social ou do local onde vivem.",
-      "A maneira como trabalhamos e os problemas que buscamos resolver devem beneficiar e auxiliar usuários de todo o estado de São Paulo, independentemente de sua posição social ou do local onde vivem.",
+      "Nós focamos em abrir portas para que todos possam ter acesso à informações sustentáveis que muitos nunca ouviram falar, para ajudar tanto o planeta quanto a vida de quem necessita",
       "Buscamos adquirir conhecimento e incentivar os usuários a terem essa incrível e necessária curiosidade, construindo, assim, uma troca que visa o bem-estar geral e a boa convivência com o espaço em que vivemos.",
       "Temos como princípio sempre incluir e melhorar a experiência de usabilidade para todos os tipos de usuário, usando ferramentas de integração para daltônicos e ajudando a criar um ambiente favorável para quaisquer pessoas."
     ]);
