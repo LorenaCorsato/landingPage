@@ -230,16 +230,16 @@ export default function Inicio() {
             <div className="explicacao-left">
               <div className="explicacao-item">
                 <p> <h3>Como funciona o cálculo de energia para placas solares:</h3>
-                  O **cálculo** será feito com **base** na média de gasto de energia dos últimos 3 meses para realizar a **análise** de qual placa é capaz de suprir sua necessidade. Também haverá um seletor de preços que o ajudará a buscar placas próximas desse valor e que **atendam** à sua necessidade.</p>
+                  O cálculo será feito com base na média de gasto de energia dos últimos 3 meses para realizar a análise de qual placa é capaz de suprir sua necessidade. Também haverá um seletor de preços que o ajudará a buscar placas próximas desse valor e que atendam à sua necessidade.</p>
               </div>
               <div className="explicacao-item">
                 <p><h3>Como nossos artigos vão te ajudar:</h3>
-                  **Possuímos** artigos informativos que **o ajudarão a entender** como anda o mercado sustentável para **pessoas físicas** e empresas, **além de** questões jurídicas como a lei 14.300/22, incentivos fiscais do governo, responsabilidades de grandes empresas e **indivíduos** a favor da sustentabilidade e explicações sobre a pegada de carbono.
+                  Possuímos artigos informativos que o ajudarão a entender como anda o mercado sustentável para pessoas físicas e empresas, além de questões jurídicas como a lei 14.300/22, incentivos fiscais do governo, responsabilidades de grandes empresas e indivíduos a favor da sustentabilidade e explicações sobre a pegada de carbono.
                 </p>
               </div>
               <div className="explicacao-item">
                 <p><h3>Como funciona a pegada de carbono:</h3>
-                  A pegada de carbono ajuda a entender o quanto cada **indivíduo** ou empresa emite de gases, contribuindo para o efeito estufa. Calculamos isso usando um questionário de poucas perguntas e, com **base** na resposta, encontramos soluções possíveis para a diminuição da emissão desses gases.</p>
+                  A pegada de carbono ajuda a entender o quanto cada indivíduo ou empresa emite de gases, contribuindo para o efeito estufa. Calculamos isso usando um questionário de poucas perguntas e, com base na resposta, encontramos soluções possíveis para a diminuição da emissão desses gases.</p>
               </div>
             </div>
 
