@@ -1,4 +1,9 @@
 import '../styles/components/rodape.css'
+import instagramIcon from '../assets/instagram.png';
+import facebookIcon from '../assets/facebook.png';
+import twitterIcon from '../assets/twitterx.png';
+import youtubeIcon from '../assets/youtube.png';
+
 
 export default function Footer() {
     return (
@@ -22,13 +27,13 @@ export default function Footer() {
 
                     <div className="redesSociais">
                         <p>Nos acompanhe</p>
-                        <a href=""><img src="src/assets/instagram.png" style={{height:"2rem", margin:"0.1rem"}}/></a>
-                        <a href=""><img src="src/assets/facebook.png" style={{height:"2rem", margin:"0.1rem"}}/></a>
-                        <a href="https://x.com/EquipeE4u"><img src="src/assets/twitterx.png" style={{height:"2rem", margin:"0.1rem"}}/></a>
-                        <a href=""><img src="src/assets/youtube.png" style={{height:"2rem", margin:"0.1rem"}}/></a>
+                        <a href=""><img src={instagramIcon}style={{height:"2rem", margin:"0.1rem"}}/></a>
+                        <a href=""><img src={facebookkIcon} style={{height:"2rem", margin:"0.1rem"}}/></a>
+                        <a href="https://x.com/EquipeE4u"><img src={twitterIcon} style={{height:"2rem", margin:"0.1rem"}}/></a>
+                        <a href=""><img src={youtubeIcon} style={{height:"2rem", margin:"0.1rem"}}/></a>
                     </div>
                 </div>
             </div>
     
     )
-}
+}  
