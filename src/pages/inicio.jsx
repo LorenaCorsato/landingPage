@@ -16,6 +16,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
+// ✅ Importações de imagens dos membros da equipe
 import funcaoImg from "../assets/lorena.jpg";
 import funcaoImg2 from "../assets/gustavo.jpg";
 import funcaoImg3 from "../assets/lyncon2.jpg";
@@ -23,10 +24,19 @@ import funcaoImg4 from "../assets/lavinia2.jpg";
 import funcaoImg5 from "../assets/raphael.jpeg";
 import funcaoImg6 from "../assets/gabriela.png";
 
-import cardEnergiaImg from "../assets/energia - lading page.png";
-import cardEficienciaImg from "../assets/Eficiencia - lading page.png";
-import cardEcologiaImg from "../assets/ecologia - lading page.png";
-import cardEconomiaImg from "../assets/economia - lading page.png";
+// ✅ IMPORTANTE: Renomeie estes arquivos para remover espaços e caracteres especiais
+// De: "energia - lading page.png" Para: "energia-landing-page.png"
+// De: "Eficiencia - lading page.png" Para: "eficiencia-landing-page.png"
+// De: "ecologia - lading page.png" Para: "ecologia-landing-page.png"
+// De: "economia - lading page.png" Para: "economia-landing-page.png"
+
+import cardEnergiaImg from "../assets/energia-landing-page.png";
+import cardEficienciaImg from "../assets/eficiencia-landing-page.png";
+import cardEcologiaImg from "../assets/ecologia-landing-page.png";
+import cardEconomiaImg from "../assets/economia-landing-page.png";
+
+// ✅ Importe a imagem de fundo da explicação
+import imgExplicacao from "../assets/imgEx.jpg";
 
 const textosSlides1 = [
   "Lorena C. Programadora",
@@ -103,7 +113,7 @@ export default function Inicio() {
       "Incluir todas as pessoas:"
     ]);
 
-    setClicado([true, false, false, false])
+    setClicado([true, false, false, false]);
   }
 
   function MudarParagrafo2() {
@@ -121,7 +131,7 @@ export default function Inicio() {
       "Simplificar o complicado:"
     ]);
 
-    setClicado([false, true, false, false])
+    setClicado([false, true, false, false]);
   }
 
   function MudarParagrafo3() {
@@ -139,7 +149,7 @@ export default function Inicio() {
       "Questionários anônimos:"
     ]);
 
-    setClicado([false, false, true, false])
+    setClicado([false, false, true, false]);
   }
 
   function MudarParagrafo4() {
@@ -147,7 +157,7 @@ export default function Inicio() {
       "Principalmente para empresas, os detalhes são muito importantes. Dedicamos muita atenção e planejamento nos gráficos, artigos e sugestões exibidos.",
       "Tudo foi meticulosamente verificado e analisado por toda a nossa equipe, garantindo a veracidade e o compromisso com o conhecimento que oferecemos aos usuários, e prevalecendo a honestidade acima de tudo.",
       "Criamos um ambiente respeitoso, sem a intromissão de quaisquer tipos de ofensas ou mensagens subliminares que poderiam gerar desconforto. O respeito mútuo é a base para uma boa relação e para um ambiente com credibilidade.",
-      "No E4u, priorizamos a facilidade, a velocidade e a praticidade em todas as ações a serem realizadas, devido ao tempo precioso de todos, buscando ‘poupar’ esse tempo que poderia ser desperdiçado sem nossa ajuda."
+      "No E4u, priorizamos a facilidade, a velocidade e a praticidade em todas as ações a serem realizadas, devido ao tempo precioso de todos, buscando 'poupar' esse tempo que poderia ser desperdiçado sem nossa ajuda."
     ]);
 
     setTitulo([
@@ -157,67 +167,8 @@ export default function Inicio() {
       "Priorizar a excelência:"
     ]);
 
-    setClicado([false, false, false, true])
+    setClicado([false, false, false, true]);
   }
-
-  function MudarTitulo1() {
-    setTitulo([
-      "Apoiar usuários de diversos lugares:",
-      "Disponibilizar informação:",
-      "Incentivar o aprendizado:",
-      "Incluir todas as pessoas:"
-    ]);
-  }
-
-  function MudarTitulo2() {
-    setTitulo([
-      "Fazer parte da campanha sustentável:",
-      "Apresentar claramente:",
-      "Valorizar o que importa:",
-      "Simplificar o complicado:"
-    ]);
-  }
-
-  function MudarTitulo3() {
-    setTitulo([
-      "Dados protegidos:",
-      "Aparelhos seguros:",
-      "Segurança financeira:",
-      "Questionários anônimos:"
-    ]);
-  }
-
-  function MudarTitulo4() {
-    setTitulo([
-      "Enfatizar os detalhes:",
-      "Confirmar todas as informações:",
-      "Respeitar os usuários:",
-      "Priorizar a excelência:"
-    ]);
-  }
-
-  function MudarB1() {
-    setMudar("Captar energia por meio de fontes limpas e renováveis ajuda na preservação do ambiente natural e da biodiversidade. Controlar sua pegada de carbono ajuda a diminuir a quantidade de gases do efeito estufa na atmosfera, contribuindo para a redução do aquecimento global e de eventos climáticos extremos.");
-  }
-
-  function MudarB2() {
-    setMudar("Com a eficiência energética, por meio da utilização de fontes renováveis e da otimização de processos industriais, você obterá economias significativas em custos operacionais. Mesmo para a sua casa, com o uso da energia fotovoltaica, a dependência da energia da rede será menor, diminuindo o valor da conta de luz.");
-  }
-
-  function MudarB3() {
-    setMudar("Sustentabilidade é o que mais se ouve falar atualmente e, para ajudar o meio ambiente, é essencial que o conhecimento seja acessível a todos. O Brasil conta com 27 empresas no ranking de sustentabilidade anual e 8 das maiores empresas sustentáveis do mundo. Não perca a oportunidade de entrar nessa onda sustentável; em nosso site, você encontra o conhecimento necessário para ir além.");
-  }
-
-  function MudarB4() {
-    setMudar("Ao escolher utilizar a energia fotovoltaica, você incentivará outras pessoas a repensarem seus hábitos de vida, alcançará a independência energética e conquistará uma excelente imagem para o seu imóvel. Controlando a pegada de carbono, você poderá melhorar a qualidade do ar, conscientizar pessoas ao redor e atingir uma melhor qualidade de vida.");
-  }
-
-  const textosSlides = [
-    "Texto do slide 1",
-    "Texto do slide 2",
-    "Texto do slide 3",
-    "Texto do slide 4"
-  ];
 
   return (
     <>
@@ -225,27 +176,36 @@ export default function Inicio() {
       <Header />
 
       <div className="inicio">
-      <div className="conteinerExplicacao">
-          <div className="explicacao">
-            <div className="explicacao-left">
-              <div className="explicacao-item">
-                <p> <h3>Como funciona o calculo de energia para placas solares:</h3>
-                Informe seu consumo, CEP e espaço disponível. Nosso sistema cruza esses dados com a irradiação solar local para recomendar as placas ideais do nosso catálogo que suprem sua necessidade e cabem no seu telhado.</p>
-              </div>
-              <div className="explicacao-item">
-                <p><h3>Como nossos artigos vão te ajudar:</h3>
-                Possuímos artigos informativos que vão te esclarecer sobre como anda o mercado sustentável para civis e empresas, questões jurídicas como a lei 14.300/22 junto a incentivos fiscais do governo, responsabilidades de grandes empresas e civis a favor da sustentabilidade e explicações sobre a pegada de carbono
-                </p>
-              </div>
-              <div className="explicacao-item">
-                <p><h3>Como funciona a pegada de carbono:</h3>
-                A pegada de carbono ajuda a entender o quanto cada individuo ou empresa emite de gases contribuindo para o efeito estufa, calculamos isso usando um questionário de poucas perguntas e baseada na resposta encontramos soluções possíveis para a diminuição da emissão desses gases</p>
-                </div>
-            </div>
+        <div className="conteinerExplicacao">
+          <div className="explicacao">
+            <div className="explicacao-left">
+              <div className="explicacao-item">
+                <p>
+                  <h3>Como funciona o calculo de energia para placas solares:</h3>
+                  Informe seu consumo, CEP e espaço disponível. Nosso sistema cruza esses dados com a irradiação solar local para recomendar as placas ideais do nosso catálogo que suprem sua necessidade e cabem no seu telhado.
+                </p>
+              </div>
+              <div className="explicacao-item">
+                <p>
+                  <h3>Como nossos artigos vão te ajudar:</h3>
+                  Possuímos artigos informativos que vão te esclarecer sobre como anda o mercado sustentável para civis e empresas, questões jurídicas como a lei 14.300/22 junto a incentivos fiscais do governo, responsabilidades de grandes empresas e civis a favor da sustentabilidade e explicações sobre a pegada de carbono
+                </p>
+              </div>
+              <div className="explicacao-item">
+                <p>
+                  <h3>Como funciona a pegada de carbono:</h3>
+                  A pegada de carbono ajuda a entender o quanto cada individuo ou empresa emite de gases contribuindo para o efeito estufa, calculamos isso usando um questionário de poucas perguntas e baseada na resposta encontramos soluções possíveis para a diminuição da emissão desses gases
+                </p>
+              </div>
+            </div>
 
-            <div className="explicacao-right"> </div>
-          </div> 
-        </div>
+            {/* ✅ CORREÇÃO: Aplicar imagem de fundo via style inline */}
+            <div 
+              className="explicacao-right"
+              style={{ backgroundImage: `url(${imgExplicacao})` }}
+            />
+          </div> 
+        </div>
 
         <div className="descricoes">
           <div className="topicos">
@@ -302,11 +262,28 @@ export default function Inicio() {
           </div>
         </div>
 
+        {/* ✅ CORREÇÃO: Usar imagens importadas no lugar de caminhos string */}
         <div className="cards">
-          <Card srcCard={cardEnergiaImg} tituloCard="Energia" textoCard="Utilize energia com aparelhos de qualidade e estabelecendo seus próprios limites. Oferecemos a oportunidade de saber com clareza a quantidade de energia que você utiliza para ajudá-lo da melhor maneira possível." />
-          <Card srcCard={cardEficienciaImg} tituloCard="Eficiência" textoCard="Garantimos uma experiência positiva, que promete resultados, melhorando a geração de energia e reduzindo o nível de poluição emitido." />
-          <Card srcCard={cardEcologiaImg} tituloCard="Ecologia" textoCard="Ao mesmo tempo em que você se beneficia, ainda ajuda a natureza com um sistema limpo e sustentável, mantendo o meio ambiente e a consciência limpos." />
-          <Card srcCard={cardEconomiaImg} tituloCard="Economia" textoCard="Além de ajudar a natureza, também ajudamos a sua carteira. O investimento em aparelhos de energia limpa promete uma redução nos custos de energia a longo prazo, aumentando a eficiência e diminuindo o peso no bolso." />
+          <Card 
+            srcCard={cardEnergiaImg} 
+            tituloCard="Energia" 
+            textoCard="Utilize energia com aparelhos de qualidade e estabelecendo seus próprios limites. Oferecemos a oportunidade de saber com clareza a quantidade de energia que você utiliza para ajudá-lo da melhor maneira possível." 
+          />
+          <Card 
+            srcCard={cardEficienciaImg} 
+            tituloCard="Eficiência" 
+            textoCard="Garantimos uma experiência positiva, que promete resultados, melhorando a geração de energia e reduzindo o nível de poluição emitido." 
+          />
+          <Card 
+            srcCard={cardEcologiaImg} 
+            tituloCard="Ecologia" 
+            textoCard="Ao mesmo tempo em que você se beneficia, ainda ajuda a natureza com um sistema limpo e sustentável, mantendo o meio ambiente e a consciência limpos." 
+          />
+          <Card 
+            srcCard={cardEconomiaImg} 
+            tituloCard="Economia" 
+            textoCard="Além de ajudar a natureza, também ajudamos a sua carteira. O investimento em aparelhos de energia limpa promete uma redução nos custos de energia a longo prazo, aumentando a eficiência e diminuindo o peso no bolso." 
+          />
         </div>
 
         <div className="objetivos">
@@ -319,7 +296,7 @@ export default function Inicio() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
-              ></iframe>
+              />
             </div>
 
             <div className="texto-e-carrosseis">
@@ -385,6 +362,7 @@ export default function Inicio() {
                   <p className="mini-swiper-text">{textosSlides2[slideAtivo2]}</p>
                 </div>
 
+                {/* Swiper 3 */}
                 <div className="mini-swiper-col">
                   <Swiper
                     effect="coverflow"
@@ -416,7 +394,7 @@ export default function Inicio() {
             </div>
           </div>
         </div>
-      </div> {/* fim da div.inicio */}
+      </div>
 
       <Acessibilidade />
       <Footer />

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import '../styles/components/acessibilidade.css';
-import bAcessibilidade from "../assets/Acessibilidade-removebg-preview.png";
 
 const tiposDeFiltro = [
     { id: 'nenhum', nome: 'Padrão' },
@@ -15,13 +14,11 @@ export default function Acessibilidade() {
     const [filtroAtivo, setFiltroAtivo] = useState('nenhum');
     
   
-    // Lógica para aplicar filtros de cor
     const aplicarFiltro = (idFiltro) => {
         setFiltroAtivo(idFiltro);
     };
 
    
-    // useEffect para os filtros de cor (sem alteração)
     useEffect(() => {
         const elementoHtml = document.documentElement;
         tiposDeFiltro.forEach(filtro => {
@@ -39,7 +36,7 @@ export default function Acessibilidade() {
     return (
         <div className="acessibilidade">
             <div className={`acessibilidadeDropDown ${menuAberto ? "aberto" : ""}`}>
-                <h4>Filtros de Daltonismo</h4>
+                <h4>Filtros de daltonismo</h4>
                 {tiposDeFiltro.map(filtro => (
                     <button
                         key={filtro.id}
@@ -55,7 +52,7 @@ export default function Acessibilidade() {
             </div>
 
             <button onClick={() => setMenuAberto(!menuAberto)} className="btnAcessibilidade">
-                <img src={bAcessibilidade} />
+                <img src="/src/assets/Acessibilidade-removebg-preview.png" alt="Ícone de Acessibilidade" />
             </button>
         </div>
     );
