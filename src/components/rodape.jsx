@@ -3,10 +3,11 @@ import Facebook from "../assets/facebook.png";
 import Instagram from  "../assets/instagram.png";
 import Youtube from "../assets/youtube.png";
 import Twitter from "../assets/twitterx.png";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-            <div className="rodape">
+            <div className="rodape"> 
                 <div className="parteSuperior">
                     <div className="direitosReservados">
                         <p>&reg;2025 E4u LTDA. Todos os direitos reservados aos proprietários</p>
@@ -20,8 +21,8 @@ export default function Footer() {
 
                 <div className="parteInferior">
                     <div className="duvidas">
-                        <a href="/termos">Termos de uso e privacidade</a>
-                        <a href="/duvidas">Dúvidas?</a>
+                        <Link to="/termos">Termos de uso e privacidade</Link>
+                        <Link to="/duvidas">Dúvidas?</Link>
                     </div>
 
                     <div className="redesSociais">

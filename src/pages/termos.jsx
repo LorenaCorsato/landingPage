@@ -1,9 +1,13 @@
 import '../styles/pages/termo.css'
 import Footer from '../components/rodape.jsx'
+import Header from '../components/cabecalhoPublico'; 
+
 
 export default function Termos() {
   return (
-    <>
+    <> 
+          <Header />
+    
       <main className="conteudoArtigo">
         <article>
           <h1>Termos de Serviço — E4U</h1>

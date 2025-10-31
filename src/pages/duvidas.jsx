@@ -1,6 +1,8 @@
 import '../styles/pages/duvidas.css'
 import Footer from '../components/rodape.jsx'
 import { useState } from 'react'
+import Header from '../components/cabecalhoPublico'; 
+
 
 export default function Duvidas() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -54,6 +56,8 @@ export default function Duvidas() {
 
   return (
     <>
+              <Header />
+    
       <main className="conteudoFAQ">
         <div className="faqHeader">
           <h1>Dúvidas Frequentes</h1>
