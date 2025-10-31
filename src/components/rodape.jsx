@@ -28,7 +28,7 @@ export default function Footer() {
                     <div className="redesSociais">
                         <p>Nos acompanhe</p>
                         <a href=""><img src={instagramIcon}style={{height:"2rem", margin:"0.1rem"}}/></a>
-                        <a href=""><img src={facebookkIcon} style={{height:"2rem", margin:"0.1rem"}}/></a>
+                        <a href=""><img src={facebookIcon} style={{height:"2rem", margin:"0.1rem"}}/></a>
                         <a href="https://x.com/EquipeE4u"><img src={twitterIcon} style={{height:"2rem", margin:"0.1rem"}}/></a>
                         <a href=""><img src={youtubeIcon} style={{height:"2rem", margin:"0.1rem"}}/></a>
                     </div>
