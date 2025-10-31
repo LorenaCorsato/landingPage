@@ -16,7 +16,6 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
-// ✅ Importações de imagens dos membros da equipe
 import funcaoImg from "../assets/lorena.jpg";
 import funcaoImg2 from "../assets/gustavo.jpg";
 import funcaoImg3 from "../assets/lyncon2.jpg";
@@ -24,19 +23,14 @@ import funcaoImg4 from "../assets/lavinia2.jpg";
 import funcaoImg5 from "../assets/raphael.jpeg";
 import funcaoImg6 from "../assets/gabriela.png";
 
-// ✅ IMPORTANTE: Renomeie estes arquivos para remover espaços e caracteres especiais
-// De: "energia - lading page.png" Para: "energia-landing-page.png"
-// De: "Eficiencia - lading page.png" Para: "eficiencia-landing-page.png"
-// De: "ecologia - lading page.png" Para: "ecologia-landing-page.png"
-// De: "economia - lading page.png" Para: "economia-landing-page.png"
 
 import cardEnergiaImg from "../assets/energia-landing-page.png";
 import cardEficienciaImg from "../assets/eficiencia-landing-page.png";
 import cardEcologiaImg from "../assets/ecologia-landing-page.png";
 import cardEconomiaImg from "../assets/economia-landing-page.png";
 
-// ✅ Importe a imagem de fundo da explicação
 import imgExplicacao from "../assets/imgEx.jpg";
+
 
 const textosSlides1 = [
   "Lorena C. Programadora",

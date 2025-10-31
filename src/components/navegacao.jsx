@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import '../styles/components/navegacao.css';
+import Logo from "/src/assets/logoFinal.png";
 
 export default function NavBar() {
     const { usuario, logout } = useAuth(); 
@@ -76,7 +77,7 @@ export default function NavBar() {
                 </div>
 
                 <div className={`navLinks ${menuAberto ? 'ativo' : ''}`}>
-                    <div className="navLogo"><img src="/src/assets/logoFinal.png" alt="Logo" /></div>
+                    <div className="navLogo"><img src={Logo} alt="Logo" /></div>
 
                     <div className="navInicio"><Link to="/home">Inicio</Link></div>
                     <div className="navPSolar"><Link to="/placaSolar">Placas solares</Link></div>
