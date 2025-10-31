@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import '../styles/components/navegacao.css';
-import Logo from "/src/assets/logoFinal.png";
+import Logo from "../assets/logoFinal.png";
 
 export default function NavBar() {
     const { usuario, logout } = useAuth(); 
