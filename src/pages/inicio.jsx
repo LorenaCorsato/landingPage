@@ -16,17 +16,17 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
-import funcaoImg from "../assets/perfil.png";
-import funcaoImg2 from "../assets/perfil.png";
-import funcaoImg3 from "../assets/perfil.png";
-import funcaoImg4 from "../assets/perfil.png";
-import funcaoImg5 from "../assets/perfil.png";
-import funcaoImg6 from "../assets/perfil.png";
+import funcaoImg from "../assets/lorena.jpg";
+import funcaoImg2 from "../assets/gustavo.jpg";
+import funcaoImg3 from "../assets/lyncon2.jpg";
+import funcaoImg4 from "../assets/lavinia2.jpg";
+import funcaoImg5 from "../assets/raphael.jpeg";
+import funcaoImg6 from "../assets/gabriela.png";
 
-import cardEnergiaImg from "../assets/img12.png";
-import cardEficienciaImg from "../assets/img10.png";
-import cardEcologiaImg from "../assets/img14.png";
-import cardEconomiaImg from "../assets/img13.png";
+import cardEnergiaImg from "../assets/energia - lading page.png";
+import cardEficienciaImg from "../assets/Eficiencia - lading page.png";
+import cardEcologiaImg from "../assets/ecologia - lading page.png";
+import cardEconomiaImg from "../assets/economia - lading page.png";
 
 const textosSlides1 = [
   "Lorena C. Programadora",
@@ -225,27 +225,27 @@ export default function Inicio() {
       <Header />
 
       <div className="inicio">
-        <div className="conteinerExplicacao">
-          <div className="explicacao">
-            <div className="explicacao-left">
-              <div className="explicacao-item">
-                <p> <h3>Como funciona o cálculo de energia para placas solares:</h3>
-                  O cálculo será feito com base na média de gasto de energia dos últimos 3 meses para realizar a análise de qual placa é capaz de suprir sua necessidade. Também haverá um seletor de preços que o ajudará a buscar placas próximas desse valor e que atendam à sua necessidade.</p>
-              </div>
-              <div className="explicacao-item">
-                <p><h3>Como nossos artigos vão te ajudar:</h3>
-                  Possuímos artigos informativos que o ajudarão a entender como anda o mercado sustentável para pessoas físicas e empresas, além de questões jurídicas como a lei 14.300/22, incentivos fiscais do governo, responsabilidades de grandes empresas e indivíduos a favor da sustentabilidade e explicações sobre a pegada de carbono.
-                </p>
-              </div>
-              <div className="explicacao-item">
-                <p><h3>Como funciona a pegada de carbono:</h3>
-                  A pegada de carbono ajuda a entender o quanto cada indivíduo ou empresa emite de gases, contribuindo para o efeito estufa. Calculamos isso usando um questionário de poucas perguntas e, com base na resposta, encontramos soluções possíveis para a diminuição da emissão desses gases.</p>
-              </div>
-            </div>
+      <div className="conteinerExplicacao">
+          <div className="explicacao">
+            <div className="explicacao-left">
+              <div className="explicacao-item">
+                <p> <h3>Como funciona o calculo de energia para placas solares:</h3>
+                Informe seu consumo, CEP e espaço disponível. Nosso sistema cruza esses dados com a irradiação solar local para recomendar as placas ideais do nosso catálogo que suprem sua necessidade e cabem no seu telhado.</p>
+              </div>
+              <div className="explicacao-item">
+                <p><h3>Como nossos artigos vão te ajudar:</h3>
+                Possuímos artigos informativos que vão te esclarecer sobre como anda o mercado sustentável para civis e empresas, questões jurídicas como a lei 14.300/22 junto a incentivos fiscais do governo, responsabilidades de grandes empresas e civis a favor da sustentabilidade e explicações sobre a pegada de carbono
+                </p>
+              </div>
+              <div className="explicacao-item">
+                <p><h3>Como funciona a pegada de carbono:</h3>
+                A pegada de carbono ajuda a entender o quanto cada individuo ou empresa emite de gases contribuindo para o efeito estufa, calculamos isso usando um questionário de poucas perguntas e baseada na resposta encontramos soluções possíveis para a diminuição da emissão desses gases</p>
+                </div>
+            </div>
 
-            <div className="explicacao-right"> </div>
-          </div>
-        </div>
+            <div className="explicacao-right"> </div>
+          </div> 
+        </div>
 
         <div className="descricoes">
           <div className="topicos">
